@@ -18,10 +18,10 @@ export const META = {
     },
     gallery: {
         title: 'Gallery | PONCHO',
-        description: 'Sneak Peak of Our Space'
+        description: 'Little Peek of Our Space'
     },
     stream: {
         title: 'Live Stream | PONCHO',
-        description: 'Sneak Peak of Our Space'
+        description: 'Current Event at PONCHO'
     }
 }
