@@ -15,7 +15,7 @@ const NavBar = () =>
             <NavItem>
                 <a href="https://www.instagram.com/" rel="noopener noreferrer" target="_blank"><i className="fab fa-instagram"/> </a>
             </NavItem>
-            <NavItem highlight><EmailLink text="hello@poncho.club"/>
+            <NavItem highlight><EmailLink text="hi@poncho.club" />
             </NavItem>
         </Nav>
 

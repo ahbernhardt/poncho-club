@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "sourceInstanceName": "gallery",
+    "src": "/images/gallery/1.jpg"
+  },
+  {
+    "id": "2",
+    "sourceInstanceName": "gallery",
+    "src": "/images/gallery/2.jpg"
+  },
+  {
+    "id": "3",
+    "sourceInstanceName": "gallery",
+    "src": "/images/gallery/3.jpg"
+  },
+  {
+    "id": "4",
+    "sourceInstanceName": "gallery",
+    "src": "/images/gallery/4.jpg"
+  },
+  {
+    "id": "5",
+    "sourceInstanceName": "gallery",
+    "src": "/images/gallery/5.jpg"
+  }
+]

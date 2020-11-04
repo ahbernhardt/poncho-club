@@ -93,6 +93,10 @@ export const NavItem = styled.li`
         color: ${colors.gray500};
       `}
   }
+  
+   i {
+        font-size: 1.2rem;
+    }
 `
 
 export const NavLink = styled(Link).attrs({

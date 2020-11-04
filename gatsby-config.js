@@ -18,6 +18,13 @@ module.exports = {
       }
     },
     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'images',
+        path: './static/images'
+      }
+    },
+    {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
@@ -30,6 +37,23 @@ module.exports = {
       options: {
         trackingId: 'UA-113472346-1',
         anonymize: true,
+      }
+    },{
+      resolve: 'gatsby-plugin-favicon',
+      options: {
+        logo: './src/assets/favicon.png',
+        injectHTML: true,
+        icons: {
+          android: false,
+          appleIcon: true,
+          appleStartup: false,
+          coast: false,
+          favicons: true,
+          firefox: false,
+          twitter: true,
+          yandex: false,
+          windows: false
+        }
       }
     },
     {
@@ -48,7 +72,7 @@ module.exports = {
             type: 'image/png'
           },
           {
-            src: '/favicon/favicon.png',
+            src: '/favicon/favicon-32x32.png',
             sizes: '32x32',
             type: 'image/png'
           }
