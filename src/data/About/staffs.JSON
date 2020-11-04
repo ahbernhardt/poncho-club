@@ -1,0 +1,43 @@
+[
+  {
+    "title": "a",
+    "name": "Dylan",
+    "position": "DJ",
+    "description": "Fat Cat",
+    "current": true,
+    "image": {
+      "src": "/images/staff/dylan/headshot.jpg"
+    }
+  },
+  {
+    "title": "b",
+    "name": "Don",
+    "position": "Dj, Social",
+    "description": "Fat Cat",
+    "current": true,
+    "image": {
+      "src": "/images/staff/don/headshot.jpg"
+    }
+  },
+  {
+    "title": "c",
+    "name": "Alden",
+    "position": "Bartender",
+    "description": "Fat Cat",
+    "current": true,
+    "image": {
+      "src": "/images/staff/alden/headshot.jpg"
+    }
+  },
+  {
+    "title": "d",
+    "name": "Eric",
+    "position": "Dancer",
+    "description": "Fat Cat",
+    "current": true,
+    "image": {
+      "src": "/images/staff/eric/headshot.jpg"
+    }
+  }
+]
+
