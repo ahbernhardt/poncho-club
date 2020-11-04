@@ -38,17 +38,8 @@ export const Wrapper = styled.div`
 `
 
 export const Title = styled.h1`
-  margin-bottom:5px; 
-  .name {
-    color: ${colors.neon500};
-    font-weight: 700;
-    font-size: 32px;
-  }
-  
-  .sub-title{
-    color: ${colors.gray700};
-    font-size:1.2rem;
-    font-weight: 400;
-  }
-  
+  margin-bottom:10px; 
+  color: ${colors.neon500};
+  font-weight: 700;
+  font-size: 32px;
 `

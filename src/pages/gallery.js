@@ -1,30 +1,26 @@
 import React from 'react'
 import { StaticQuery, graphql} from 'gatsby'
 import Layout from '../components/layout'
-import GalleryContent from'../components/GalleryPage/Content'
-
+import GalleryContent from "../components/GalleryPage/Content"
 
 const galleryQuery = graphql`
   query GalleryQuery {
-      images: allGalleryJson {
-       edges {
-         image: nodes {
-            id
-            image {
-               publicURL
-               childImageSharp {
-                 fluid {
-                    ...GatsbyImageSharpFluid
-                 }
-               }
-            }
-         }
-       }
+  gallery: allGalleryJson {
+      edges {
+        image: node {
+          id,
+          title,
+          forGallery,
+          source {
+            src
+          }
+        }
+      }
+    }
   }
 `
 
 export default ({location}) =>
-
     <StaticQuery
         query= {galleryQuery}
         render= {data =>
@@ -33,4 +29,3 @@ export default ({location}) =>
             </Layout>
         }
     />
-

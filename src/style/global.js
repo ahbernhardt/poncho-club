@@ -19,6 +19,9 @@ export const GlobalStyle = createGlobalStyle`
     height: 100%;
     font-size: 16px;
     cursor:pointer;
+    // overflow: scroll;
+    // overflow-x: hidden;
+    // overflow-y: hidden;
     ${media.xl`
       font-size: 14px;
     `}
@@ -59,4 +62,8 @@ export const GlobalStyle = createGlobalStyle`
     color: ${colors.neon500};
     background: transparent;
   }
+  
+  ::-webkit-scrollbar {
+    display: none;
+}
 `;

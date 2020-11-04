@@ -1,92 +1,73 @@
-import Img from 'gatsby-image';
-import React, { useState } from 'react';
-import Carousel, { Modal, ModalGateway } from 'react-images';
-import { Box, Link } from 'rebass';
-import { chunk, sum } from '../utils/array';
-import carouselFormatters from '../utils/carouselFormatters';
-import {number, string} from "prop-types";
+import React, { Component } from 'react'
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
+import { Wrapper, ImageCard, StyledCarousel, StyledImage } from './style'
+import { Loader } from '../../../style/shared'
 
-const Props ={
-    images: {
-        id: number,
-        src: string,
+class Gallery extends Component {
+    constructor() {
+        super()
+        this.state =  { widthLoaded: false, isMobile: false }
+        this.setMobile = this.setMobile.bind(this)
+    }
+
+    componentDidMount() {
+        if (typeof window !== 'undefined') {
+            this.setMobile()
+            window.addEventListener('resize', this.setMobile)
+        }
+    }
+
+    componentWillUnmount() {
+        typeof window !== 'undefined' &&
+        window.removeEventListener('resize', this.setMobile);
+    }
+
+    setWidthLoaded() {
+        this.setState({ widthLoaded: true })
+    }
+
+    setMobile() {
+        this.setState({
+            isMobile: window.innerWidth < 480
+        }, () => this.setWidthLoaded())
+    }
+
+    renderGalleryList({ image }) {
+        const { id , source } = image
+        return (
+            <ImageCard key={id}>
+                <StyledImage
+                    alt={id}
+                    loader={({ isLoaded }) => <Loader isLoaded={isLoaded} />}
+                    {...source}
+                />
+            </ImageCard>
+        )
+    }
+
+    renderGalleryWrapper() {
+        const { gallery } = this.props
+        const { isMobile } = this.state
+        const galleryList = gallery.map(this.renderGalleryList)
+        return (
+            isMobile
+                ? <StyledCarousel
+                    showArrows={false}
+                    showThumbs={false}
+                    showStatus={false}
+                    interval={10000}
+                    autoPlay
+                >
+                    {galleryList}
+                </StyledCarousel>
+                : <Wrapper>{galleryList}</Wrapper>
+        )
+    }
+
+    render() {
+        const { widthLoaded } = this.state
+        return widthLoaded && this.renderGalleryWrapper()
     }
 }
-const Gallery = ({
-                     images,
-                     itemsPerRow: itemsPerRowByBreakpoints = [1],
-                 }: Props) => {
-    const aspectRatios = images.map(image => image.aspectRatio);
-    const rowAspectRatioSumsByBreakpoints = itemsPerRowByBreakpoints.map(
-        itemsPerRow =>
-            chunk(aspectRatios, itemsPerRow).map(rowAspectRatios =>
-                sum(rowAspectRatios),
-            ),
-    );
 
-    const [modalIsOpen, setModalIsOpen] = useState(false);
-    const [modalCurrentIndex, setModalCurrentIndex] = useState(0);
-
-    const closeModal = () => setModalIsOpen(false);
-    const openModal = (imageIndex: number) => {
-        setModalCurrentIndex(imageIndex);
-        setModalIsOpen(true);
-    };
-
-    return (
-        <Box>
-            {images.map((image, i) => (
-                <Link
-                    key={image.id}
-                    href={image.originalImg}
-                    onClick={(e: React.MouseEvent<HTMLAnchorElement>) => {
-                        e.preventDefault();
-                        openModal(i);
-                    }}
-                >
-                    <Box
-                        as={Img}
-                        fluid={image}
-                        title={image.caption}
-                        width={rowAspectRatioSumsByBreakpoints.map(
-                            (rowAspectRatioSums, j) => {
-                                const rowIndex = Math.floor(i / itemsPerRowByBreakpoints[j]);
-                                const rowAspectRatioSum = rowAspectRatioSums[rowIndex];
-
-                                return `${(image.aspectRatio / rowAspectRatioSum) * 100}%`;
-                            },
-                        )}
-                        css={`
-              display: inline-block;
-              vertical-align: middle;
-              transition: filter 0.3s;
-              :hover {
-                filter: brightness(87.5%);
-              }
-            `}
-                    />
-                </Link>
-            ))}
-
-            {ModalGateway && (
-                <ModalGateway>
-                    {modalIsOpen && (
-                        <Modal onClose={closeModal}>
-                            <Carousel
-                                views={images.map(({ originalImg, caption }) => ({
-                                    source: originalImg,
-                                    caption,
-                                }))}
-                                currentIndex={modalCurrentIndex}
-                                formatters={carouselFormatters}
-                                components={{ FooterCount: () => null }}
-                            />
-                        </Modal>
-                    )}
-                </ModalGateway>
-            )}
-        </Box>
-    );
-};
-
-export default Gallery;
+export default Gallery

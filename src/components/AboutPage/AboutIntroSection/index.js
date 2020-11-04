@@ -5,7 +5,7 @@ import PageIntro from "../../elements/PageIntro";
 const AboutIntroSection = ({ content }) =>
     <Wrapper>
         <InfoWrapper>
-            <PageIntro fixed={false} />
+            <PageIntro text="PONCHO" />
             <Content>{content()}</Content>
         </InfoWrapper>
     </Wrapper>

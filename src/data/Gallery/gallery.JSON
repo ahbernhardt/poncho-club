@@ -1,27 +1,50 @@
 [
   {
     "id": "1",
-    "sourceInstanceName": "gallery",
-    "src": "/images/gallery/1.jpg"
+    "title": "image 1",
+    "forGallery": true,
+    "source": {
+      "src": "/images/gallery/1.jpg"
+    }
   },
   {
     "id": "2",
-    "sourceInstanceName": "gallery",
-    "src": "/images/gallery/2.jpg"
+    "title": "image 2",
+    "forGallery": true,
+    "source": {
+      "src": "/images/gallery/2.jpg"
+    }
   },
   {
     "id": "3",
-    "sourceInstanceName": "gallery",
-    "src": "/images/gallery/3.jpg"
+    "title": "image 3",
+    "forGallery": true,
+    "source": {
+      "src": "/images/gallery/3.jpg"
+    }
   },
   {
     "id": "4",
-    "sourceInstanceName": "gallery",
-    "src": "/images/gallery/4.jpg"
+    "title": "image 4",
+    "forGallery": true,
+    "source": {
+      "src": "/images/gallery/4.jpg"
+    }
   },
   {
     "id": "5",
-    "sourceInstanceName": "gallery",
-    "src": "/images/gallery/5.jpg"
+    "title": "image 5",
+    "forGallery": true,
+    "source": {
+      "src": "/images/gallery/5.jpg"
+    }
+  },
+  {
+    "id": "6",
+    "title": "image 6",
+    "forGallery": true,
+    "source": {
+      "src": "/images/gallery/6.jpg"
+    }
   }
 ]

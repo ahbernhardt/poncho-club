@@ -6,7 +6,7 @@
     "description": "Fat Cat",
     "current": true,
     "image": {
-      "src": "/images/staff/dylan/headshot.jpg"
+      "src": "/images/staff/dylan_headshot.jpg"
     }
   },
   {
@@ -16,7 +16,7 @@
     "description": "Fat Cat",
     "current": true,
     "image": {
-      "src": "/images/staff/don/headshot.jpg"
+      "src": "/images/staff/don_headshot.jpg"
     }
   },
   {
@@ -26,7 +26,7 @@
     "description": "Fat Cat",
     "current": true,
     "image": {
-      "src": "/images/staff/alden/headshot.jpg"
+      "src": "/images/staff/alden_headshot.jpg"
     }
   },
   {
@@ -36,7 +36,7 @@
     "description": "Fat Cat",
     "current": true,
     "image": {
-      "src": "/images/staff/eric/headshot.jpg"
+      "src": "/images/staff/eric_headshot.jpg"
     }
   }
 ]

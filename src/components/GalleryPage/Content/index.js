@@ -2,16 +2,32 @@ import React, {Component} from 'react'
 import Head from '../../elements/Head'
 import { META } from '../../../utils/constants'
 import { ContentWrapper } from '../../../style/shared'
-import {GallerySection, Title} from "./style"
-import {StyledCarousel} from "../../AboutPage/CurrentStaffSection/style";
+import {GallerySection} from "./style"
+import PageIntro from "../../elements/PageIntro";
+import Gallery from "../Gallery";
+import idx from "idx";
 
 
 export default class extends Component {
+    // constructor(props) {
+    //     super(props)
+    //     this.state = { title: null }
+    //     this.setTitle = this.setTitle.bind(this)
+    // }
+
+
+    getData() {
+        const { data } = this.props
+        return idx(data, _ => _.gallery.edges)
+    }
+
+
+    getGallery() {
+        const gallery = this.getData()
+        return gallery && gallery.filter(({image}) => image.forGallery)
+    }
 
     render = () => {
-        const gallery = get(this, 'props.data.allDataJson.edges')
-        console.log(gallery)
-
         return (
             <ContentWrapper>
                 <Head
@@ -20,15 +36,8 @@ export default class extends Component {
                 />
 
                 <GallerySection>
-                    <Title>
-                        <span className="name">Gallery</span>
-                    </Title>
-                    {gallery.map(({node}) => {
-                        return(
-                            <img src={node.image} />
-                        )
-                    })}
-
+                    <PageIntro text="Gallery" />
+                    <Gallery gallery={this.getGallery()} />
                 </GallerySection>
             </ContentWrapper>
         )
