@@ -31,12 +31,14 @@ module.exports = {
           families: ['Roboto:300,400', 'Roboto Mono']
         }
       }
-    },
-    {
-      resolve: 'gatsby-plugin-google-analytics',
+    },{
+      resolve: 'gatsby-remark-embed-video',
       options: {
-        trackingId: 'UA-113472346-1',
-        anonymize: true,
+        width: 800,
+        ratio: 1.77,
+        height: 400,
+        related: false,
+        noIframeBorder: true
       }
     },{
       resolve: 'gatsby-plugin-favicon',
@@ -79,7 +81,8 @@ module.exports = {
         ]
       }
     },
-    //'gatsby-plugin-react-next',
+    'gatsby-remark-embed-video',
+    'gatsby-remark-responsive-iframe',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sitemap',
     'gatsby-transformer-json',
