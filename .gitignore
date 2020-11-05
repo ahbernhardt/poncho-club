@@ -3,7 +3,7 @@ npm-debug.log
 node_modules
 
 # Build
-public/
+#public/
 
 # Hidden files
 .cache/
