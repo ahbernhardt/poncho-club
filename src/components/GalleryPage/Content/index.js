@@ -9,12 +9,6 @@ import idx from "idx";
 
 
 export default class extends Component {
-    // constructor(props) {
-    //     super(props)
-    //     this.state = { title: null }
-    //     this.setTitle = this.setTitle.bind(this)
-    // }
-
 
     getData() {
         const { data } = this.props

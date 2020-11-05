@@ -20,7 +20,7 @@ export const META = {
         title: 'Gallery | PONCHO',
         description: 'Little Peek of Our Space'
     },
-    stream: {
+    live: {
         title: 'Live Stream | PONCHO',
         description: 'Current Event at PONCHO'
     }

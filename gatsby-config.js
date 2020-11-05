@@ -37,10 +37,10 @@ module.exports = {
         width: 800,
         ratio: 1.77,
         height: 400,
-        related: false,
+        related:false,
         noIframeBorder: true
       }
-    },{
+    }, {
       resolve: 'gatsby-plugin-favicon',
       options: {
         logo: './src/assets/favicon.png',

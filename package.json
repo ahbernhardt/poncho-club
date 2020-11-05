@@ -62,6 +62,7 @@
     "gatsby-plugin-styled-components": "^3.3.11",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-remark-embed-video": "^3.0.10",
+    "gatsby-remark-embedder": "^4.1.0",
     "gatsby-remark-responsive-iframe": "^2.4.17",
     "gatsby-source-filesystem": "^2.3.30",
     "gatsby-transformer-json": "^2.4.12",

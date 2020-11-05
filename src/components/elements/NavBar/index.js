@@ -28,14 +28,15 @@ const NavBar = () =>
                 <NavLink to='/about'>About</NavLink>
             </NavItem>
             <NavItem>
+                <NavLink to='/live'>Live</NavLink>
+            </NavItem>
+            <NavItem>
                 <NavLink to='/menu'>Menu</NavLink>
             </NavItem>
             <NavItem>
                 <NavLink to='/gallery'>Gallery</NavLink>
             </NavItem>
-            <NavItem>
-                <NavLink to='/stream'>Streaming</NavLink>
-            </NavItem>
+
         </Nav>
     </Wrapper>
 
