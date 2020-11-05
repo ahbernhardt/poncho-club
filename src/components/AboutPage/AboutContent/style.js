@@ -9,6 +9,12 @@ export const StaffSection = styled.section`
   grid-row-gap: 2rem;
   padding: 1rem 5% 3rem 8rem;
   
+  ${media.xxl`
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 0;
+    padding: 5% 0 0 5%;
+  `}
+  
   ${media.lg`
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 0;

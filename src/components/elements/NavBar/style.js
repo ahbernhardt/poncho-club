@@ -97,6 +97,24 @@ export const NavItem = styled.li`
    i {
         font-size: 1.2rem;
     }
+    
+   ${media.xxl`
+        a{
+            font-size: 1.2rem;
+        }
+        i{
+            font-size: 1.5rem;
+        }
+  `}
+  
+   ${media.xl`
+        a{
+            font-size: .9rem;
+        }
+        i{
+            font-size: 1.2rem;
+        }
+  `}
 `
 
 export const NavLink = styled(Link).attrs({

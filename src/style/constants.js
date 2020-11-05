@@ -15,6 +15,7 @@ export const fonts = {
 }
 
 export const spaces = {
+    p600: '6rem', //96px
     p500: '5rem', //80px
     p400: '4rem', //64px
     p300: '3rem', //48px
@@ -29,7 +30,8 @@ export const mq = {
     sm: '40em', //640px
     md: '54em', //864px
     lg: '78em', //1248px
-    xl: '125em' //2000px
+    xl: '120em', //1920px
+    xxl: '160em' //2560px
 }
 
 export const media = {
@@ -57,6 +59,10 @@ export const media = {
     @media (max-width: ${mq.xl}) {
       ${css(...a)}
     }
+  `, xxl: (...a) => css`
+    @media (max-width: ${mq.xxl}) {
+      ${css(...a)}
+    }
   `,
     hover: (...a) => css`
     @media not all and (hover: none) {
@@ -70,7 +76,12 @@ const rule = (d, v) => `${d}: ${v};`
 export const getOuterSpace = p =>
     css`
     ${rule(p, spaces.p500)}
-    ${media.lg`
+    ${media.xxl`
+      ${rule(p, spaces.p600)}
+    `}
+    ${media.xl`
+      ${rule(p, spaces.p400)}
+    `}${media.lg`
       ${rule(p, spaces.p300)}
     `}
     ${media.md`

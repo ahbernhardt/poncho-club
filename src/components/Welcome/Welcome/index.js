@@ -7,7 +7,7 @@ const WelcomeMiddle = props =>
     <Wrapper {...props}>
             <div className="padding">
                 <h1>
-                    <Link to='/'><Welcome width={428} height={450} /></Link>
+                    <Link to='/'><Welcome width={425} height={375} /></Link>
                 </h1>
             </div>
     </Wrapper>

@@ -2,9 +2,14 @@ import styled, { css } from 'styled-components'
 import { media, colors } from './constants'
 
 export const ContentWrapper = styled.div`
-  max-width: 68rem;
-  width: calc(100% - 9.25rem * 2);
+  max-width: 78rem;
+  width: calc(100% - 8.5rem * 2);
   margin: 11rem auto 5rem;
+  
+  ${media.xxl`
+    margin: 8rem auto 3rem;
+  `}
+  
   ${media.lg`
     margin: 8rem auto 3rem;
     width: calc(100% - 11rem * 2);

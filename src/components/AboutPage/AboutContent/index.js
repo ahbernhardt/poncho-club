@@ -1,11 +1,11 @@
 import React, {Component} from 'react'
+import idx from "idx";
 import Head from '../../elements/Head'
 import { META } from '../../../utils/constants'
 import { ContentWrapper } from '../../../style/shared'
 import AboutIntroSection from "../AboutIntroSection";
 import {StaffSection, Title} from "./style";
 import CurrentStaffSection from "../CurrentStaffSection";
-import idx from "idx";
 
 
 export default class extends Component {

@@ -5,11 +5,11 @@ const Intro = props =>
     <Wrapper {...props} >
         <Title>
             <span className="name">PONCHO</span>
+        </Title>
+        <Title>
+            <span className="day">Saturdays</span>
             <br/>
-            Saturdays
-            <br/>
-            9pm - Close
-            (CST)
+            <span className="time">9pm - Close (CST)</span>
         </Title>
     </Wrapper>
 

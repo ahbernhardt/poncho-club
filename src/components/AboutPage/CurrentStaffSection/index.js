@@ -43,7 +43,7 @@ class CurrentStaffSection extends Component {
         />
         <Name>{name}</Name>
         <div className="position"><Position>Position:</Position> <span>{position}</span></div>
-        <div className="description"><Description>Description:</Description> <span>{description}</span></div>
+        <div className="description"><Description>Description:</Description> <span>{description}</span><br/></div>
       </StaffCurrent>
     )
   }

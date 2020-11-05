@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 import { Carousel } from 'react-responsive-carousel'
 import Image from '../../elements/Image'
-import { media } from '../../../style/constants'
-import {colors} from "../../../style/constants";
+import { media, colors } from '../../../style/constants'
+
 
 export const StaffCurrent = styled.article`
   border-radius: 2px;
@@ -33,7 +33,8 @@ export const StaffCurrent = styled.article`
   }
 
   ${media.sm`
-    box-shadow: none;
+    box-shadow: 0 15px 30px -5px rgba(0, 0, 0, .35);
+    margin-bottom: 25px;
     transform: translateY(0);
     
     &:hover {
@@ -47,6 +48,7 @@ export const StyledImage = styled(Image)`
   display: block;
   position: relative;
   background: #242e3a;
+  
   
   &::before {
     content: '';
@@ -94,14 +96,31 @@ export const Position = styled.span`
 `
 export const Description = styled.span`
    border-bottom: 1px dotted ${colors.gray700};
+   margin-bottom: 1rem;
 `
 export const Wrapper = styled.section`
   width: 700px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
+  margin-bottom:50px;
+  
+  ${media.xxl`
+      width: 1200px;
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: 2rem;
+      grid-row-gap: 2rem;
+  `}
+  
+  ${media.xl`
+      width: 900px;
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: 2rem;
+      grid-row-gap: 2rem;
+  `}
 
+  
   ${media.lg`
     width: 600px;
     grid-template-columns: repeat(2, 1fr);
@@ -110,21 +129,25 @@ export const Wrapper = styled.section`
   `}
   
   ${media.md`
-    grid-template-columns: repeat(1, 1fr);
+    width: 600px;
+    grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 2rem;
   `}
   
   ${media.sm`
-    width: 380px;
+    width: 350px;
     grid-template-columns: repeat(1, 1fr);
-    grid-row-gap: .5rem;
+    grid-row-gap: 1rem;
   `}
 `
 
 export const StyledCarousel = styled(Carousel)`
+  width: 325px;
   box-shadow: 0 10px 30px rgba(19, 27, 37, .4);
   overflow: hidden;
   border-radius: 2px;
+  margin-top: -25px;
+  margin-bottom: 25px;
   
   .carousel {
     .slide {
@@ -132,7 +155,7 @@ export const StyledCarousel = styled(Carousel)`
     }
 
     .control-dots {
-      margin: 0 0 0 3rem;
+      margin: 35px auto 5px auto;
       
       .dot {
         box-shadow: none;

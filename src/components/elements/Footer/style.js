@@ -5,7 +5,6 @@ export const Wrapper = styled.footer`
   width: 100%;
   position: fixed;
   top: 45%;
-  // z-index:2;
   ${media.md`
     position: static;
     padding-top: 1.5rem;
@@ -34,6 +33,13 @@ export const Item = styled.div`
       transform-origin: right;
       ${getOuterSpace('right')}
     ` }
+  
+  ${media.xxl`
+    font-size: 1.2rem;
+  `}
+  ${media.xl`
+    font-size: .9rem;
+  `}
   
   ${media.md`
     position: static;

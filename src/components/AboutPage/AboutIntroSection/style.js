@@ -7,6 +7,18 @@ export const Wrapper = styled.section`
   grid-template-rows: repeat(4, 1fr);
   position: relative;
   
+  ${media.xxl`
+    grid-template-rows: repeat(5, auto);
+    grid-row-gap: 1rem;
+    padding: 0 0 0 5%;
+  `}
+  
+  ${media.xl`
+    grid-template-rows: repeat(5, auto);
+    grid-row-gap: 1rem;
+    padding: 0 0 0 5%;
+  `}
+  
   ${media.lg`
     grid-template-rows: repeat(5, auto);
     grid-row-gap: 1rem;
@@ -29,6 +41,11 @@ export const InfoWrapper = styled.header`
   grid-row: 1 / 4;
   grid-column: 2/ 8;
   z-index: 1;
+  
+  ${media.xxl`
+    grid-column: 1 / 8;
+    grid-row: 1 / 4;
+  `}
   
   ${media.lg`
     grid-column: 1 / 8;
