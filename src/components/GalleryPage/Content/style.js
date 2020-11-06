@@ -31,7 +31,6 @@ export const GallerySection = styled.section`
   grid-template-rows: auto auto;
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
-  // margin-top: -50px;
   padding: 0 5% 3rem 8rem;
   
   ${media.lg`

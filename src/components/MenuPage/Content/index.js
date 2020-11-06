@@ -5,11 +5,12 @@ import { ContentWrapper } from '../../../style/shared'
 import MenuIntroSection from '../IntroSection'
 import GroupListItem from '../GroupListItem'
 import GroupList from '../List'
-import { MenuSection } from './style'
+import { MenuSection, Title } from './style'
+
 
 
 export default ({ data }) => {
-    const { beers, gins, rums, vodkas } = data
+    const { foods, snacks, beers, gins, rums, vodkas } = data
     return (
         <ContentWrapper>
             <Head
@@ -24,6 +25,45 @@ export default ({ data }) => {
                     </>
                 }
             />
+
+            <MenuSection>
+                <Title>
+                    <span className="name">Food</span>
+                </Title>
+            </MenuSection>
+
+            <MenuSection>
+                {/* Food */}
+                {foods.edges.length > 0 &&
+                <GroupList
+                    title='Starter'
+                    list={() => foods.edges.map(({ food }, i) => (
+                        <GroupListItem
+                            key={i}
+                            {...food}
+                        />
+                    ))}
+                />}
+
+                {/* SNACK */}
+                {snacks.edges.length > 0 &&
+                <GroupList
+                    title='Dessert'
+                    list={() => snacks.edges.map(({ snack }, i) => (
+                        <GroupListItem
+                            key={i}
+                            {...snack}
+                        />
+                    ))}
+                />}
+            </MenuSection>
+            <br />
+            <br />
+            <MenuSection>
+                <Title>
+                    <span className="name">Drink</span>
+                </Title>
+            </MenuSection>
 
             <MenuSection>
                 {/* BEER */}

@@ -84,7 +84,7 @@ export const Wrapper = styled.section`
   
   ${media.xxl`
       width: 1200px;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(1, 1fr);
       grid-column-gap: 2rem;
       grid-row-gap: 2rem;
   `}
@@ -97,7 +97,7 @@ export const Wrapper = styled.section`
   `}
   
   ${media.lg`
-    width: 700px;
+    width: 800px;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;

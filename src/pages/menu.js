@@ -6,6 +6,26 @@ import MenuContent from '../components/MenuPage/Content'
 const menuQuery = graphql`
   query MenuQuery {
   
+    foods: allFoodsJson {
+      edges {
+        food: node {
+          name
+          recommended
+          description
+        }
+      }
+    }
+    
+    snacks: allSnacksJson {
+      edges {
+        snack: node {
+          name
+          recommended
+          description
+        }
+      }
+    }
+    
     beers: allBeersJson {
       edges {
         beer: node {

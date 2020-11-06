@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { media } from '../../../style/constants'
+import {colors, media} from '../../../style/constants'
 
 export const MenuSection = styled.section`
   display: grid;
@@ -9,23 +9,51 @@ export const MenuSection = styled.section`
   grid-row-gap: 3rem;
   padding: 2rem 5% 0 8rem;
   
+  ${media.xl`
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0;
+    padding: 0 0 0 5%;
+  `}
+  
   ${media.lg`
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 0;
     padding: 0 0 0 5%;
   `}
   
   ${media.md`
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 1em;
     grid-row-gap: 1rem;
-    padding: 2% 0 0 5%;
+    padding: 0 0 0 5%;
   `}
   
   ${media.sm`
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 0;
     grid-row-gap: 3rem;
-    padding: 2% 0 0 5%;
+    padding: 0 0 0 5%;
   `}
 `
+export const Title = styled.h1`
+  margin-bottom: 5px;
+  
+  .name {
+    color: ${colors.neon500};
+    font-weight: 700;
+    font-size: 24px;
+  }
+  
+  ${media.lg`
+    margin-bottom: 5px; 
+  `}
+  
+  ${media.md`
+    margin-bottom: 0; 
+  `}
+  
+   ${media.sm`
+    padding-bottom: -5%; 
+  `}
+`
+

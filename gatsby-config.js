@@ -3,6 +3,9 @@
  *
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`, // or '.env'
+});
 
 module.exports = {
   pathPrefix: '/',
@@ -30,15 +33,6 @@ module.exports = {
         google: {
           families: ['Roboto:300,400', 'Roboto Mono']
         }
-      }
-    },{
-      resolve: 'gatsby-remark-embed-video',
-      options: {
-        width: 800,
-        ratio: 1.77,
-        height: 400,
-        related:false,
-        noIframeBorder: true
       }
     }, {
       resolve: 'gatsby-plugin-favicon',

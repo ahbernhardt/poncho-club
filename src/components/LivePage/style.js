@@ -10,10 +10,24 @@ export const StreamSection = styled.section`
   margin-top: -78px;
   padding: 0 5% 3rem 8rem;
   
-  ${media.lg`
+  ${media.xxl`
+    width: 1200px;
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 0;
-    padding: 5% 0 0 5%;
+    padding: 10% 0 0 3%;
+  `}
+  ${media.xl`
+    width: 950px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 0;
+    padding: 5% 0 0 15%;
+  `}
+  
+  ${media.lg`
+    width: 900px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 0;
+    padding: 5% 0 0 10%;
   `}
   
   ${media.md`
