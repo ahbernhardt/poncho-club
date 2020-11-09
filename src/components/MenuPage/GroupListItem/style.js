@@ -19,6 +19,7 @@ export const Wrapper = styled.div`
   }
 
   .description {
+    word-wrap: break-word;
     position: absolute;
     top: 0;
     right: 0;

@@ -14,11 +14,11 @@ export const META = {
     },
     menu: {
         title: 'Menu | PONCHO',
-        description: 'Large Variety of Drink'
+        description: 'Poncho exclusive food and drinks'
     },
     gallery: {
         title: 'Gallery | PONCHO',
-        description: 'Little Peek of Our Space'
+        description: 'A Peek at Our Space'
     },
     live: {
         title: 'Live Stream | PONCHO',

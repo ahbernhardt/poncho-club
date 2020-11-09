@@ -10,7 +10,7 @@ export const MenuSection = styled.section`
   padding: 2rem 5% 0 8rem;
   
   ${media.xl`
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 0;
     padding: 0 0 0 5%;
   `}
