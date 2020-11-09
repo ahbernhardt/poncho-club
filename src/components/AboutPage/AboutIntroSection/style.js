@@ -16,7 +16,7 @@ export const Wrapper = styled.section`
   ${media.xl`
     grid-template-rows: repeat(5, auto);
     grid-row-gap: 1rem;
-    padding: 0 0 0 5%;
+    padding: 0 0 0 13%;
   `}
   
   ${media.lg`
@@ -47,8 +47,13 @@ export const InfoWrapper = styled.header`
     grid-row: 1 / 4;
   `}
   
-  ${media.lg`
+  ${media.xl`
     grid-column: 1 / 8;
+    grid-row: 1 / 4;
+  `}
+  
+  ${media.lg`
+    grid-column: 2 / 8;
     grid-row: 1 / 5;
   `}
   
