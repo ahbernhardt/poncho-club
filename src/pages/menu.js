@@ -20,7 +20,6 @@ const menuQuery = graphql`
       edges {
         dessert: node {
           name
-          recommended
           description
         }
       }

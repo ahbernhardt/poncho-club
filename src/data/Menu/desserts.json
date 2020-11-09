@@ -1,11 +1,10 @@
 [
   {
-  "name": "Pineapple Ponchcake",
-  "description": "The ponchcake earns its name from the fact that the total weight of the dry ingredients (before pineapples) equals the weight of a single poncho"
+    "name": "Pineapple Ponchcake",
+    "description": "The ponchcake earns its name from the fact that the total weight of the dry ingredients (before pineapples) equals the weight of a single poncho"
   },
   {
     "name": "Ponchocolate",
-    "company": "A luscious bonbon made from dark chocolate infused with lighter-than-air bubbles.",
-    "description": "Stout-Russian Imperial | 12.0%"
+    "description": "A luscious bonbon made from dark chocolate infused with lighter-than-air bubbles."
   }
 ]

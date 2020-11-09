@@ -1,8 +1,8 @@
 [
   {
-  "name": "Poncho Pancakes",
-  "recommended": "✨",
-  "description": "A pancake dish made of ground Dalamud popotoes, served with puréed mirror apples."
+    "name": "Poncho Pancakes",
+    "recommended": "✨",
+    "description": "A pancake dish made of ground Dalamud popotoes, served with puréed mirror apples."
   },
   {
     "name": "Ponchowder",
@@ -11,6 +11,7 @@
   },
   {
     "name": "Big Pizza",
+    "recommended": "✨✨✨",
     "description": "The biggest pizza you have ever seen."
   }
 ]
