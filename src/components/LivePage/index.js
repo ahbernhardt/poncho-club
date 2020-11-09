@@ -20,11 +20,11 @@ export default class extends Component {
                 <StreamSection>
                     <PageIntro text="Live with PONCHO" />
                     <p>
-                        <a href="https://www.twitch.tv/dylanbernhardt" rel="noopener noreferrer" target="_blank"><i className="fab fa-twitch"/></a>
+                        <a href="https://www.twitch.tv/ponchoclub" rel="noopener noreferrer" target="_blank"><i className="fab fa-twitch"/></a>
                         You can find us on Twitch
                     </p>
 
-                <TwitchStream allowFullScreen={true} autoPlay={true} muted={false} channelName='dylanbernhardt'/>
+                <TwitchStream allowFullScreen={true} autoPlay={true} muted={false} channelName='ponchoclub'/>
 
 
                 </StreamSection>
