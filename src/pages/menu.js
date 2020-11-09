@@ -10,7 +10,7 @@ const menuQuery = graphql`
       edges {
         food: node {
           name
-          recommended
+          price
           description
         }
       }
@@ -20,6 +20,7 @@ const menuQuery = graphql`
       edges {
         dessert: node {
           name
+          price
           description
         }
       }
@@ -29,6 +30,7 @@ const menuQuery = graphql`
       edges {
         alcoholic: node {
           name
+          price
           description
         }
       }
@@ -38,6 +40,7 @@ const menuQuery = graphql`
       edges {
         nonAlcoholic: node {
           name
+          price
           description
         }
       }
