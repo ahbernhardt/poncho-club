@@ -16,56 +16,32 @@ const menuQuery = graphql`
       }
     }
     
-    snacks: allSnacksJson {
+    desserts: allDessertsJson {
       edges {
-        snack: node {
+        dessert: node {
           name
-          recommended
           description
         }
       }
     }
     
-    beers: allBeersJson {
+    alcoholics: allAlcoholicsJson {
       edges {
-        beer: node {
+        alcoholic: node {
           name
-          company
           description
         }
       }
     }
     
-    gins: allGinsJson {
+    nonAlcoholics: allNonAlcoholicsJson {
       edges {
-        gin: node {
+        nonAlcoholic: node {
           name
-          company
           description
         }
       }
     }
-    
-    rums: allRumsJson {
-      edges {
-        rum: node {
-          name
-          company
-          description
-        }
-      }
-    }
-    
-    vodkas: allVodkasJson {
-      edges {
-        vodka: node {
-          name
-          company
-          description
-        }
-      }
-    }
-    
   }
 `
 export default ({ location }) =>

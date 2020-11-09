@@ -10,7 +10,7 @@ import { MenuSection, Title } from './style'
 
 
 export default ({ data }) => {
-    const { foods, snacks, beers, gins, rums, vodkas } = data
+    const { foods, desserts, alcoholics, nonAlcoholics } = data
     return (
         <ContentWrapper>
             <Head
@@ -36,7 +36,7 @@ export default ({ data }) => {
                 {/* Food */}
                 {foods.edges.length > 0 &&
                 <GroupList
-                    title='Starter'
+                    title='Foods'
                     list={() => foods.edges.map(({ food }, i) => (
                         <GroupListItem
                             key={i}
@@ -45,14 +45,14 @@ export default ({ data }) => {
                     ))}
                 />}
 
-                {/* SNACK */}
-                {snacks.edges.length > 0 &&
+                {/* DESSERT */}
+                {desserts.edges.length > 0 &&
                 <GroupList
-                    title='Dessert'
-                    list={() => snacks.edges.map(({ snack }, i) => (
+                    title='Desserts'
+                    list={() => desserts.edges.map(({ dessert }, i) => (
                         <GroupListItem
                             key={i}
-                            {...snack}
+                            {...dessert}
                         />
                     ))}
                 />}
@@ -61,55 +61,31 @@ export default ({ data }) => {
             <br />
             <MenuSection>
                 <Title>
-                    <span className="name">Drink</span>
+                    <span className="name">Drinks</span>
                 </Title>
             </MenuSection>
 
             <MenuSection>
-                {/* BEER */}
-                {beers.edges.length > 0 &&
+                {/* ALCOHOLIC */}
+                {alcoholics.edges.length > 0 &&
                 <GroupList
-                    title='Beer'
-                    list={() => beers.edges.map(({ beer }, i) => (
+                    title='Alcoholic'
+                    list={() => alcoholics.edges.map(({ alcoholic }, i) => (
                         <GroupListItem
                             key={i}
-                            {...beer}
+                            {...alcoholic}
                         />
                     ))}
                 />}
 
-                {/* GIN */}
-                {gins.edges.length > 0 &&
+                {/* NON-ALCOHOLIC */}
+                {nonAlcoholics.edges.length > 0 &&
                 <GroupList
-                    title='Gin'
-                    list={() => gins.edges.map(({ gin }, i) => (
+                    title='Non-Alcoholic'
+                    list={() => nonAlcoholics.edges.map(({ nonAlcoholic }, i) => (
                         <GroupListItem
                             key={i}
-                            {...gin}
-                        />
-                    ))}
-                />}
-
-                {/* RUM */}
-                {rums.edges.length > 0 &&
-                <GroupList
-                    title='Rum'
-                    list={() => rums.edges.map(({ rum }, i) => (
-                        <GroupListItem
-                            key={i}
-                            {...rum}
-                        />
-                    ))}
-                />}
-
-                {/* VODKA*/}
-                {vodkas.edges.length > 0 &&
-                <GroupList
-                    title='Vodka'
-                    list={() => vodkas.edges.map(({ vodka }, i) => (
-                        <GroupListItem
-                            key={i}
-                            {...vodka}
+                            {...nonAlcoholic}
                         />
                     ))}
                 />}
