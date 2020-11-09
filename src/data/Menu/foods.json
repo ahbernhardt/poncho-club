@@ -1,17 +1,17 @@
 [
   {
     "name": "Poncho Pancakes",
-    "recommended": "✨",
+    "price": "5,000",
     "description": "A pancake dish made of ground Dalamud popotoes, served with puréed mirror apples."
   },
   {
     "name": "Ponchowder",
-    "recommended": "✨",
+    "price": "15,000",
     "description": "A milk-based soup made with various shellfish, but most often clams."
   },
   {
     "name": "Big Pizza",
-    "recommended": "✨✨✨",
-    "description": "The biggest pizza you have ever seen."
+    "price": "100,000",
+    "description": "The biggest pizza you have ever seen. Limited Supply."
   }
 ]
