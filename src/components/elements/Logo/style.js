@@ -21,7 +21,7 @@ export const Wrapper = styled.div`
   }
 
   a {
-    width: 2.5rem;
+    width: 3.2rem;
     left:50%;
     ${media.lg`
       width: 2rem;
