@@ -11,11 +11,11 @@ export const TwitchSection = styled.section`
   ${media.xxl`
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 0;
-    padding: 10% 0 0 20%;
+    padding: 12% 0 0 21%;
     
     iframe{
       width: 1480px;
-      height: 1020px;
+      height: 860px;
     }
   `}
   
@@ -25,18 +25,18 @@ export const TwitchSection = styled.section`
     
     iframe{
       width: 750px;
-      height: 480px;
+      height: 422px;
     }
   `}
   
   ${media.lg`
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 0;
-    padding: 10% 0 0 16%;
+    padding: 15% 0 0 16%;
     
     iframe{
       width: 750px;
-      height: 480px;
+      height: 420px;
     }
   `}
   
@@ -44,10 +44,10 @@ export const TwitchSection = styled.section`
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 1em;
     grid-row-gap: 1rem;
-    padding: 25% 0 0 10%;
+    padding: 25% 0 0 6%;
     
     iframe{
-      width: 580px;
+      width: 575px;
       height: 320px;
     }
   `}

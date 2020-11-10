@@ -7,13 +7,10 @@ const NavBar = () =>
         {/* LEFT SIDE*/}
         <Nav>
             <NavItem>
-                <a href="https://twitter.com" rel="noopener noreferrer" target="_blank"><i className="fab fa-twitter"/> </a>
+                <a href="https://twitter.com" rel="noopener noreferrer" target="_blank"><i className="fab fa-discord"/> </a>
             </NavItem>
             <NavItem>
-                <a href="https://twitch.tv" rel="noopener noreferrer" target="_blank"><i className="fab fa-twitch"/> </a>
-            </NavItem>
-            <NavItem>
-                <a href="https://www.instagram.com/" rel="noopener noreferrer" target="_blank"><i className="fab fa-instagram"/> </a>
+                <a href="https://twitch.tv/ponchoclub" rel="noopener noreferrer" target="_blank"><i className="fab fa-twitch"/> </a>
             </NavItem>
             <NavItem highlight><EmailLink text="hi@poncho.club" />
             </NavItem>

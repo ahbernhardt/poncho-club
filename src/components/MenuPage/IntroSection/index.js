@@ -1,5 +1,5 @@
 import React from 'react'
-import Intro from '../../Welcome/Intro'
+import Intro from '../../HomePage/Intro'
 import { Wrapper, InfoWrapper, Content} from './style'
 
 const MenuIntroSection = ({ content }) =>

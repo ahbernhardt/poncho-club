@@ -1,8 +1,8 @@
 import React from 'react'
 import Layout from '../components/layout'
-import Intro from '../components/Welcome/Intro'
+import Intro from '../components/HomePage/Intro'
 import Head from '../components/elements/Head'
-import WelcomeMiddle from '../components/Welcome/Welcome'
+import WelcomeMiddle from '../components/HomePage/TwitchVideo'
 import { META } from '../utils/constants'
 
 export default ({ location }) =>

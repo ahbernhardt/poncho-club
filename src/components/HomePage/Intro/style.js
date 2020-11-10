@@ -93,12 +93,12 @@ export const Title = styled.h1`
     
     .day {
       line-height: 28px;
-      font-size: 24px;
+      font-size: 20px;
     }
   
     .time {
       line-height: 28px;
-      font-size: 24px;
+      font-size: 20px;
     }
   `} 
   
@@ -110,12 +110,12 @@ export const Title = styled.h1`
     
     .day {
       line-height: 28px;
-      font-size: 24px;
+      font-size: 20px;
     }
   
     .time {
       line-height: 28px;
-      font-size: 24px;
+      font-size: 20px;
     }
   `} 
   
