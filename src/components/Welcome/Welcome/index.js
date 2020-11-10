@@ -1,15 +1,21 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import Welcome from './Welcome.svg'
-import { Wrapper } from './style'
+// import Link from 'gatsby-link'
+// import Welcome from './Welcome.svg'
+// import { Wrapper } from './style'
+import {ContentWrapper} from "../../../style/shared";
+import {TwitchSection} from "./style";
 
-const WelcomeMiddle = props =>
-    <Wrapper {...props}>
-            <div className="padding">
-                <h1>
-                    <Link to='/'><Welcome width={425} height={375} /></Link>
-                </h1>
-            </div>
-    </Wrapper>
+const WelcomeMiddle = () =>
+    // <ContentWrapper>
+        <TwitchSection>
+            {/* eslint-disable-next-line jsx-a11y/iframe-has-title */}
+            <iframe src="https://player.twitch.tv/?channel=ponchoclub&parent=poncho.club"
+                    frameBorder="0"
+                    allowFullScreen="true"
+                    scrolling="no"
+            >
+            </iframe>
+        </TwitchSection>
+    // </ContentWrapper>
 
 export default WelcomeMiddle
