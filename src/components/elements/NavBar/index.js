@@ -12,7 +12,7 @@ const NavBar = () =>
             <NavItem>
                 <a href="https://twitch.tv/ponchoclub" rel="noopener noreferrer" target="_blank"><i className="fab fa-twitch"/> </a>
             </NavItem>
-            <NavItem highlight><EmailLink text="hi@poncho.club" />
+            <NavItem highlight><EmailLink text="poncho@poncho.club" />
             </NavItem>
         </Nav>
 
