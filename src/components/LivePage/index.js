@@ -24,7 +24,15 @@ export default class extends Component {
                         You can find us on Twitch
                     </p>
 
-                <TwitchStream allowFullScreen={true} autoPlay={true} muted={false} channelName='ponchoclub'/>
+                {/*<TwitchStream allowFullScreen={true} autoPlay={true} muted={false} channelName='ponchoclub'/>*/}
+                    <iframe src="https://player.twitch.tv/?channel=ponchoclub&parent=poncho.club"
+                            frameBorder="0"
+                            allowFullScreen="true"
+                            scrolling="no"
+                            height="378"
+                            width="620">
+
+                    </iframe>
 
 
                 </StreamSection>
