@@ -9,7 +9,7 @@ const Intro = props =>
         <Title>
             <span className="day">Saturdays</span>
             <br/>
-            <span className="time">9pm - Close (CST)</span>
+            <span className="time">10pm - Close (CST)</span>
         </Title>
     </Wrapper>
 
