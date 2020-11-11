@@ -90,4 +90,7 @@ export const getOuterSpace = p =>
     ${media.sm`
       ${rule(p, spaces.p200)}
     `}
+    ${media.xs`
+      ${rule(p, spaces.p50)}
+    `}
   `

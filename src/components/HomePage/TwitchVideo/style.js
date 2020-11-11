@@ -63,6 +63,16 @@ export const TwitchSection = styled.section`
       height: 320px;
     }
   `}
+  
+  ${media.xs`
+    grid-template-columns: repeat(1, 1fr);
+    padding: 45% 0 0 5%;
+    
+    iframe{
+      width: 325px;
+      height: 280px;
+    }
+  `}
 `
 
 

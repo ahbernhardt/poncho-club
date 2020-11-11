@@ -50,7 +50,7 @@ export default class extends Component {
                     image={META.common.image}
                 />
 
-                <AboutIntroSection
+                <AboutIntroSection text="PONCHO"
                     content={() =>
                         <>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
