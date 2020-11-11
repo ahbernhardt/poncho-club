@@ -61,7 +61,16 @@ export const InfoWrapper = styled.header`
     grid-column: 1 / 8;
     grid-row: 1 / 4;
   `}
+  
   ${media.sm`
+    width: 97%;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    grid-row: 2 / 3;
+    grid-column: 1 / 1;
+  `}
+  
+  ${media.xs`
     padding-top: 15px;
     padding-bottom: 25px;
     grid-row: 2 / 3;

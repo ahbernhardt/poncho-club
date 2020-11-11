@@ -140,14 +140,14 @@ export const Wrapper = styled.section`
   `}
   
   ${media.xs`
-    width: 350px;
+    width: 325px;
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 1rem;
   `}
 `
 
 export const StyledCarousel = styled(Carousel)`
-  width: 325px;
+  width: 310px;
   box-shadow: 0 10px 30px rgba(19, 27, 37, .4);
   overflow: hidden;
   border-radius: 2px;
@@ -165,10 +165,18 @@ export const StyledCarousel = styled(Carousel)`
       .dot {
         box-shadow: none;
         height: 1px;
-        width: 1.5rem;
-        margin: 0 .25rem;
+        width: 2rem;
+        margin: 0 .5rem;
         border-radius: 0;
       }
     }
   }
+  
+  ${media.sm`
+    width: 310px;
+  `}
+  
+  ${media.xs`
+    width: 290px;
+  `}
 `

@@ -38,14 +38,12 @@ export const StaffSection = styled.section`
   
   ${media.sm`
     grid-template-columns: repeat(1, 1fr);
-    grid-column-gap: 0;
     grid-row-gap: 3rem;
     padding: 2% 0 0 0;
   `}
   
   ${media.xs`
     grid-template-columns: repeat(1, 1fr);
-    grid-column-gap: 0;
     grid-row-gap: 3rem;
     padding: 2% 0 0 0;
   `}

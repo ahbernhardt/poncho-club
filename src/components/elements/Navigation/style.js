@@ -37,6 +37,13 @@ export const Shoable = styled.div`
       padding: 0 2rem 2rem;
     }
   `}
+  
+  ${media.xs`
+  background-color: ${colors.blue900};
+    > div {
+      padding: 0 2rem 2rem;
+    }
+  `}
 `
 
 export const Header = styled.header`
