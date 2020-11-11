@@ -2,16 +2,16 @@
   {
     "name": "Poncho Pancakes",
     "price": "5,000",
-    "description": "A pancake dish made of ground Dalamud popotoes, served with puréed mirror apples."
+    "description": "A pancake dish made of ground Poncho popotoes fresh from our garden, served with puréed mirror apples."
   },
   {
     "name": "Ponchowder",
     "price": "15,000",
-    "description": "A milk-based soup made with various shellfish, but most often clams."
+    "description": "A milk-based soup made with clams, onions, and our Poncho popotoes."
   },
   {
-    "name": "Big Pizza",
-    "price": "100,000",
-    "description": "The biggest pizza you have ever seen. Limited Supply."
+    "name": "Big Pizza Surprise",
+    "price": "25,000",
+    "description": "Try your luck! 5 different pizza prizes available. Could be the biggest pizza you've ever seen or could be rather flat."
   }
 ]
