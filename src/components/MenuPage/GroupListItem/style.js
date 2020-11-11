@@ -19,12 +19,10 @@ export const Wrapper = styled.div`
   }
 
   .description {
-    word-wrap: break-word;
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
+    position: relative;
+    overflow: visible;
+    width:90%;
+    top: -5px;
     transform: translateY(100%);
     color: #fff;
   }
@@ -36,6 +34,7 @@ export const Wrapper = styled.div`
 
     .description {
       transform: translateY(0);
+      top: -15px;
     }
   }
 `

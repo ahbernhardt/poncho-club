@@ -10,13 +10,13 @@ export const Wrapper = styled.section`
   ${media.xxl`
     grid-template-rows: repeat(5, auto);
     grid-row-gap: 1rem;
-    padding: 0 0 0 5%;
+    padding: 0 0 0 10%;
   `}
   
   ${media.xl`
     grid-template-rows: repeat(5, auto);
-    grid-row-gap: 1rem;
-    padding: 0 0 0 5%;
+    grid-row-gap: 2rem;
+    padding: 0 0 0 15%;
   `}
   
   ${media.lg`

@@ -9,16 +9,22 @@ export const MenuSection = styled.section`
   grid-row-gap: 3rem;
   padding: 2rem 5% 0 8rem;
   
+  ${media.xxl`
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2rem;
+    padding: 0 0 0 10%;
+  `}
+  
   ${media.xl`
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 0;
-    padding: 0 0 0 5%;
+    grid-column-gap: 2rem;
+    padding: 0 0 0 15%;
   `}
   
   ${media.lg`
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 0;
-    padding: 0 0 0 5%;
+    grid-column-gap: 1rem;
+    padding: 0 0 0 8%;
   `}
   
   ${media.md`
@@ -43,6 +49,14 @@ export const Title = styled.h1`
     font-weight: 700;
     font-size: 24px;
   }
+  
+  ${media.xxl`
+    margin-bottom: 5px; 
+  `}
+  
+  ${media.xl`
+    margin-bottom: 5px; 
+  `}
   
   ${media.lg`
     margin-bottom: 5px; 

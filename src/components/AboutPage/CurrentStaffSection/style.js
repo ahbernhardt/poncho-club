@@ -114,13 +114,12 @@ export const Wrapper = styled.section`
   `}
   
   ${media.xl`
-      width: 900px;
+      width: 800px;
       grid-template-columns: repeat(2, 1fr);
       grid-column-gap: 2rem;
       grid-row-gap: 2rem;
   `}
 
-  
   ${media.lg`
     width: 600px;
     grid-template-columns: repeat(2, 1fr);

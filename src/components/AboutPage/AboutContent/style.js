@@ -13,12 +13,20 @@ export const StaffSection = styled.section`
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 0;
     padding: 5% 0 0 5%;
+    
+  `}
+  
+  ${media.xl`
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 0;
+    padding: 3% 0 0 13%;
   `}
   
   ${media.lg`
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 0;
-    padding: 5% 0 0 5%;
+    margin-left: 5%;
+    padding: 10% 0 0 5%;
   `}
   
   ${media.md`

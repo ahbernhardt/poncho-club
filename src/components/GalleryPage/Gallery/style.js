@@ -90,7 +90,7 @@ export const Wrapper = styled.section`
   `}
   
   ${media.xl`
-      width: 900px;
+      width: 875px;
       grid-template-columns: repeat(2, 1fr);
       grid-column-gap: 2rem;
       grid-row-gap: 2rem;

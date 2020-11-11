@@ -7,7 +7,7 @@ const GroupListItem = ({ name, price, description }) =>
     <ListItem>
         <Wrapper>
             <div className="name"><Name>{name}</Name> - <span>{price}</span></div>
-            <div className="description">{description}</div>
+            <div className="description"><Name>{name}</Name>: {description} </div>
         </Wrapper>
     </ListItem>
 
