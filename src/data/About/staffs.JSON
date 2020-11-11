@@ -1,18 +1,18 @@
 [
   {
     "title": "a",
-    "name": "Dylan",
+    "name": "Minene",
     "position": "DJ",
-    "description": "Fat Cat",
+    "description": "Trance DJ who will never talk on mic, only music.",
     "current": true,
     "image": {
-      "src": "/images/staff/dylan_headshot.jpg"
+      "src": "/images/staff/minene.jpg"
     }
   },
   {
     "title": "b",
     "name": "Don",
-    "position": "Dj, Social",
+    "position": "Dj",
     "description": "Fat Cat",
     "current": true,
     "image": {
@@ -21,22 +21,22 @@
   },
   {
     "title": "c",
-    "name": "Alden",
-    "position": "Bartender",
-    "description": "Fat Cat",
+    "name": "Mikino",
+    "position": "Coordinator, manager, advertiser",
+    "description": "Blue Poncho, likes to yell at people and parse.",
     "current": true,
     "image": {
-      "src": "/images/staff/alden_headshot.jpg"
+      "src": "/images/staff/miki.jpg"
     }
   },
   {
     "title": "d",
-    "name": "Eric",
-    "position": "Dancer",
-    "description": "Fat Cat",
+    "name": "Mima",
+    "position": "Grand Chef",
+    "description": "Omni-chef, likes long walks on E8S",
     "current": true,
     "image": {
-      "src": "/images/staff/eric_headshot.jpg"
+      "src": "/images/staff/mima.jpg"
     }
   }
 ]
