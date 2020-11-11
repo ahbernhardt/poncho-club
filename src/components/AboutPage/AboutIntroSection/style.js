@@ -22,18 +22,20 @@ export const Wrapper = styled.section`
   ${media.lg`
     grid-template-rows: repeat(5, auto);
     grid-row-gap: 1rem;
-    padding: 0 0 0 5%;
+    padding: 0 0 0 10%;
   `}
   
   ${media.md`
     grid-template-rows: repeat(6, auto);
     grid-row-gap: 1rem;
+    padding: 0 0 0 7%;
   `}
   
   ${media.sm`
     grid-template-columns: 100%;
     grid-template-rows: repeat(3, auto);
     grid-row-gap: .5rem;
+    padding: 0 0 0 5%;
   `}
 `
 
@@ -53,7 +55,8 @@ export const InfoWrapper = styled.header`
   `}
   
   ${media.lg`
-    grid-column: 2 / 8;
+    
+    grid-column: 1 / 8;
     grid-row: 1 / 5;
   `}
   

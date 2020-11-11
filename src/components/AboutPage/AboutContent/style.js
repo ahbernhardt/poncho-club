@@ -33,7 +33,7 @@ export const StaffSection = styled.section`
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 1em;
     grid-row-gap: 1rem;
-    padding: 2% 0 0 5%;
+    padding: 1% 0 0 2%;
   `}
   
   ${media.sm`
