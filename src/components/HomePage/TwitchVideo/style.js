@@ -21,10 +21,10 @@ export const TwitchSection = styled.section`
   
   ${media.xl`
     grid-template-columns: repeat(1, 1fr);
-    padding: 11% 0 0 25%;
+    padding: 8% 0 0 21%;
     
     iframe{
-      width: 840px;
+      width: 820px;
       height: 480px;
     }
   `}
