@@ -53,7 +53,8 @@ export default class extends Component {
                 <AboutIntroSection text="PONCHO"
                     content={() =>
                         <>
-                            The club was constructed on top of the remains of a burned down factory. The factory itself was ironically burned down due to a massive rave that was thrown. Poncho (Now adhering to fire codes) stands as an epicenter of EDM and partying in Eorzea.
+                            The club was constructed on top of the remains of a burned down factory. The factory itself was ironically burned down due to a massive rave that was thrown.
+                             In the burned down rubble a scorched Poncho was found mostly intact giving the new club its namesake. Poncho (Now adhering to fire codes) stands as an epicenter of EDM and partying in Eorzea.
                             <br />
                             Poncho is a specialized Trance music venue that offers a sanctuary for partygoers and music lovers alike.
                         </>
