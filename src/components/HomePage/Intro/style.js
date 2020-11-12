@@ -71,33 +71,33 @@ export const Title = styled.h1`
   ${media.xxl`
   
     .name{
-        font-size: 64px;
+        font-size: 56px;
     }
     
     .day {
       line-height: 42px;
-      font-size: 36px;
+      font-size: 32px;
     }
   
     .time {
       line-height: 42px;
-      font-size:36px;
+      font-size:32px;
     }
   `} 
   
   ${media.xl`
 
     .name{
-        font-size: 28px;
+        font-size: 24px;
     }
     
     .day {
-      line-height: 28px;
+      line-height: 24px;
       font-size: 20px;
     }
   
     .time {
-      line-height: 28px;
+      line-height: 24px;
       font-size: 20px;
     }
   `} 
@@ -105,16 +105,16 @@ export const Title = styled.h1`
   ${media.lg`
 
     .name{
-        font-size: 28px;
+        font-size: 24px;
     }
     
     .day {
-      line-height: 28px;
+      line-height: 24px;
       font-size: 20px;
     }
   
     .time {
-      line-height: 28px;
+      line-height: 24px;
       font-size: 20px;
     }
   `} 
@@ -127,12 +127,12 @@ export const Title = styled.h1`
     
     .day {
       line-height: 20px;
-      font-size: 18px;
+      font-size: 16px;
     }
   
     .time {
       line-height: 20px;
-      font-size: 18px;
+      font-size: 16px;
     }
     `} 
     

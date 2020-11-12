@@ -3,5 +3,3 @@
 package.json
 package-lock.json
 public
-#.env
-#.env.development

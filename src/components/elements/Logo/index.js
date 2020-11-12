@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import MainLogo from './circle.svg'
+import MainLogo from './poncho.svg'
 import { Wrapper } from './style'
 
 const Logo = () =>

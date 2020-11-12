@@ -1,42 +1,42 @@
 [
   {
     "title": "a",
-    "name": "Dylan",
+    "name": "Minene",
     "position": "DJ",
-    "description": "Fat Cat",
+    "description": "Trance DJ who will never talk on mic, only music.",
     "current": true,
     "image": {
-      "src": "/images/staff/dylan_headshot.jpg"
+      "src": "/images/staff/minene.jpg"
     }
   },
   {
     "title": "b",
-    "name": "Don",
-    "position": "Dj, Social",
-    "description": "Fat Cat",
+    "name": "Michuru",
+    "position": "Dj",
+    "description": "DJ Euphoric Nation, will talk on mic sometimes, Known for his sage-like advice as a mentor.",
     "current": true,
     "image": {
-      "src": "/images/staff/don_headshot.jpg"
+      "src": "/images/staff/michiru.png"
     }
   },
   {
     "title": "c",
-    "name": "Alden",
-    "position": "Bartender",
-    "description": "Fat Cat",
+    "name": "Mikino",
+    "position": "Coordinator, Manager, Advertiser, Architect",
+    "description": "Blue Poncho, death metal drummer, likes to yell at people and parse.",
     "current": true,
     "image": {
-      "src": "/images/staff/alden_headshot.jpg"
+      "src": "/images/staff/miki.jpg"
     }
   },
   {
     "title": "d",
-    "name": "Eric",
-    "position": "Dancer",
-    "description": "Fat Cat",
+    "name": "Mima",
+    "position": "Grand Chef, Architect",
+    "description": "Omni-chef, Black mage purist, likes long walks on E8S",
     "current": true,
     "image": {
-      "src": "/images/staff/eric_headshot.jpg"
+      "src": "/images/staff/mima.jpg"
     }
   }
 ]

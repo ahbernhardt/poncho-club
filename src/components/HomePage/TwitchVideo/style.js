@@ -11,7 +11,7 @@ export const TwitchSection = styled.section`
   ${media.xxl`
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 0;
-    padding: 12% 0 0 21%;
+    padding: 14% 0 0 23%;
     
     iframe{
       width: 1480px;
@@ -21,18 +21,18 @@ export const TwitchSection = styled.section`
   
   ${media.xl`
     grid-template-columns: repeat(1, 1fr);
-    padding: 8% 0 0 22%;
+    padding: 8% 0 0 21%;
     
     iframe{
-      width: 750px;
-      height: 422px;
+      width: 820px;
+      height: 480px;
     }
   `}
   
   ${media.lg`
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 0;
-    padding: 15% 0 0 16%;
+    padding: 15% 0 0 12%;
     
     iframe{
       width: 750px;
@@ -44,11 +44,11 @@ export const TwitchSection = styled.section`
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 1em;
     grid-row-gap: 1rem;
-    padding: 25% 0 0 6%;
+    padding: 20% 0 0 6%;
     
     iframe{
-      width: 575px;
-      height: 320px;
+      width: 660px;
+      height: 380px;
     }
   `}
   
@@ -56,11 +56,21 @@ export const TwitchSection = styled.section`
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 0;
     grid-row-gap: 3rem;
-    padding: 25% 0 0 5%;
+    padding: 28% 0 0 8%;
     
     iframe{
-      width: 450px;
-      height: 320px;
+      width: 340px;
+      height: 230px;
+    }
+  `}
+  
+  ${media.xs`
+    grid-template-columns: repeat(1, 1fr);
+    padding: 35% 0 0 8%;
+    
+    iframe{
+      width: 320px;
+      height: 220px;
     }
   `}
 `

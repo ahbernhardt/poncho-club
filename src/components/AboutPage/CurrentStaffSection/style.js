@@ -23,8 +23,10 @@ export const StaffCurrent = styled.article`
   
   .description{
     color: ${colors.gray500};
+    line-height: 20px;
     margin-bottom: 1rem;
     margin-left: 1rem;
+    margin-right: .5rem;
   }
   
   &:hover {
@@ -99,7 +101,7 @@ export const Description = styled.span`
    margin-bottom: 1rem;
 `
 export const Wrapper = styled.section`
-  width: 700px;
+  width: 800px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 2rem;
@@ -114,7 +116,7 @@ export const Wrapper = styled.section`
   `}
   
   ${media.xl`
-      width: 800px;
+      width: 850px;
       grid-template-columns: repeat(2, 1fr);
       grid-column-gap: 2rem;
       grid-row-gap: 2rem;
@@ -128,20 +130,26 @@ export const Wrapper = styled.section`
   `}
   
   ${media.md`
-    width: 600px;
-    grid-template-columns: repeat(2, 1fr);
+    width: 550px;
+    grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 2rem;
   `}
   
   ${media.sm`
-    width: 350px;
+    width: 400px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 1rem;
+  `}
+  
+  ${media.xs`
+    width: 325px;
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 1rem;
   `}
 `
 
 export const StyledCarousel = styled(Carousel)`
-  width: 325px;
+  width: 310px;
   box-shadow: 0 10px 30px rgba(19, 27, 37, .4);
   overflow: hidden;
   border-radius: 2px;
@@ -159,10 +167,18 @@ export const StyledCarousel = styled(Carousel)`
       .dot {
         box-shadow: none;
         height: 1px;
-        width: 1.5rem;
-        margin: 0 .25rem;
+        width: 2rem;
+        margin: 0 .5rem;
         border-radius: 0;
       }
     }
   }
+  
+  ${media.sm`
+    width: 310px;
+  `}
+  
+  ${media.xs`
+    width: 290px;
+  `}
 `

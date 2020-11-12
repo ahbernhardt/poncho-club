@@ -26,7 +26,7 @@ export const spaces = {
 }
 
 export const mq = {
-    xs: '22em', //352px
+    xs: '24em', //352px
     sm: '40em', //640px
     md: '54em', //864px
     lg: '78em', //1248px

@@ -50,17 +50,12 @@ export default class extends Component {
                     image={META.common.image}
                 />
 
-                <AboutIntroSection
+                <AboutIntroSection text="PONCHO"
                     content={() =>
                         <>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                            galley of type and scrambled it to make a type specimen book. It has survived not only five
-                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            The club was constructed on top of the remains of a burned down factory. The factory itself was ironically burned down due to a massive rave that was thrown. Poncho (Now adhering to fire codes) stands as an epicenter of EDM and partying in Eorzea.
                             <br />
-                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-                            passages, and more recently with desktop publishing software like Aldus PageMaker including
-                            versions of Lorem Ipsum.
+                            Poncho is a specialized Trance music venue that offers a sanctuary for partygoers and music lovers alike.
                         </>
                     }
                 />
