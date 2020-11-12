@@ -75,8 +75,6 @@ module.exports = {
         ]
       }
     },
-    'gatsby-remark-embed-video',
-    'gatsby-remark-responsive-iframe',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sitemap',
     'gatsby-transformer-json',

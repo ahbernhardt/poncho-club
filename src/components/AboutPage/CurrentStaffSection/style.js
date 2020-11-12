@@ -23,8 +23,10 @@ export const StaffCurrent = styled.article`
   
   .description{
     color: ${colors.gray500};
+    line-height: 20px;
     margin-bottom: 1rem;
     margin-left: 1rem;
+    margin-right: .5rem;
   }
   
   &:hover {
@@ -99,7 +101,7 @@ export const Description = styled.span`
    margin-bottom: 1rem;
 `
 export const Wrapper = styled.section`
-  width: 700px;
+  width: 800px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 2rem;
@@ -114,7 +116,7 @@ export const Wrapper = styled.section`
   `}
   
   ${media.xl`
-      width: 800px;
+      width: 850px;
       grid-template-columns: repeat(2, 1fr);
       grid-column-gap: 2rem;
       grid-row-gap: 2rem;
@@ -128,8 +130,8 @@ export const Wrapper = styled.section`
   `}
   
   ${media.md`
-    width: 600px;
-    grid-template-columns: repeat(2, 1fr);
+    width: 550px;
+    grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 2rem;
   `}
   

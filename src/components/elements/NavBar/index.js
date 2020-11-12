@@ -7,7 +7,7 @@ const NavBar = () =>
         {/* LEFT SIDE*/}
         <Nav>
             <NavItem>
-                <a href="https://twitter.com" rel="noopener noreferrer" target="_blank"><i className="fab fa-discord"/> </a>
+                <a href="https://discord.com" rel="noopener noreferrer" target="_blank"><i className="fab fa-discord"/> </a>
             </NavItem>
             <NavItem>
                 <a href="https://twitch.tv/ponchoclub" rel="noopener noreferrer" target="_blank"><i className="fab fa-twitch"/> </a>
