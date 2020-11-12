@@ -50,11 +50,12 @@ export default class extends Component {
                     image={META.common.image}
                 />
 
-                <AboutIntroSection text="PONCHO (Ward 4 - Plot 55 - MISTS - EXODUS)"
+                <AboutIntroSection text="PONCHO"
                     content={() =>
                         <>
-                        The club was constructed on top of the remains of a burned down factory. The factory itself was ironically burned down due to a massive rave that was thrown. Poncho (Now adhering to fire codes) stands as an epicenter of EDM and partying in Eorzea.
-                        <br/>Poncho is a specialized Trance music venue that offers a sanctuary for partygoers and music lovers alike.</main>
+                            The club was constructed on top of the remains of a burned down factory. The factory itself was ironically burned down due to a massive rave that was thrown. Poncho (Now adhering to fire codes) stands as an epicenter of EDM and partying in Eorzea.
+                            <br />
+                            Poncho is a specialized Trance music venue that offers a sanctuary for partygoers and music lovers alike.
                         </>
                     }
                 />
