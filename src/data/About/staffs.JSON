@@ -13,7 +13,7 @@
     "title": "b",
     "name": "Michuru",
     "position": "Dj",
-    "description": "Euphoric Nationalist and DJ, will talk on mic sometimes. ",
+    "description": "DJ Euphoric Nation, will talk on mic sometimes, Known for his sage-like advice as a mentor.",
     "current": true,
     "image": {
       "src": "/images/staff/michiru.png"
@@ -23,7 +23,7 @@
     "title": "c",
     "name": "Mikino",
     "position": "Coordinator, Manager, Advertiser, Architect",
-    "description": "Blue Poncho, likes to yell at people and parse.",
+    "description": "Blue Poncho, death metal drummer, likes to yell at people and parse.",
     "current": true,
     "image": {
       "src": "/images/staff/miki.jpg"
@@ -33,7 +33,7 @@
     "title": "d",
     "name": "Mima",
     "position": "Grand Chef, Architect",
-    "description": "Omni-chef, likes long walks on E8S",
+    "description": "Omni-chef, Black mage purist, likes long walks on E8S",
     "current": true,
     "image": {
       "src": "/images/staff/mima.jpg"
