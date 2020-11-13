@@ -8,7 +8,7 @@ const Head = ({ title, description, image }) =>
         <meta name="description" content={description} />
         <meta property="og:title" content={title}/>
         <meta property="og:description" content={description}/>
-        <meta property="og:image" content="./src/static/images/poncho.png" />
+        <meta property="og:image" content="/images/poncho.png" />
         {/*<meta name="google-site-verification" content="w6QODQIo6PYp7OLUH3RI1ULc4NKzA0lt7tzXEeKJzjM" />*/}
         <link rel="stylesheet"
                   href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
