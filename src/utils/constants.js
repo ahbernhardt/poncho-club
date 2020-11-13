@@ -2,7 +2,7 @@
 export const IS_PROD = process.env.NODE_ENV === 'production'
 export const META = {
     common: {
-        image: '../assets/favicon.png',
+        image: '/images/poncho.png',
     },
     index: {
         title: 'PONCHO',
