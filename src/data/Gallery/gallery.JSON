@@ -4,7 +4,7 @@
     "title": "image 1",
     "forGallery": true,
     "source": {
-      "src": "/images/gallery/poncho-outside.png"
+      "src": "/images/gallery/poncho_outside.jpg"
     }
   },
   {
@@ -12,7 +12,7 @@
     "title": "image 2",
     "forGallery": true,
     "source": {
-      "src": "/images/gallery/poncho-tank.png"
+      "src": "/images/gallery/poncho_tank.jpg"
     }
   },
   {
@@ -20,7 +20,7 @@
     "title": "image 3",
     "forGallery": true,
     "source": {
-      "src": "/images/gallery/ponch-basement1.png"
+      "src": "/images/gallery/poncho_basement_1.jpg"
     }
   },
   {
@@ -28,7 +28,7 @@
     "title": "image 4",
     "forGallery": true,
     "source": {
-      "src": "/images/gallery/poncho-basement-dj.png"
+      "src": "/images/gallery/poncho_basement_dj.jpg"
     }
   },
   {
@@ -36,7 +36,7 @@
     "title": "image 5",
     "forGallery": true,
     "source": {
-      "src": "/images/gallery/poncho-basement-2.png"
+      "src": "/images/gallery/poncho_basement_2.jpg"
     }
   },
   {
@@ -44,7 +44,7 @@
     "title": "image 6",
     "forGallery": true,
     "source": {
-      "src": "/images/gallery/ponch-basement3.png"
+      "src": "/images/gallery/poncho_basement_3.jpg"
     }
   }
 ]
