@@ -19,13 +19,14 @@ export const TwitchSection = styled.section`
     }
   `}
   
+  // MAC
   ${media.xl`
     grid-template-columns: repeat(1, 1fr);
-    padding: 8% 0 0 21%;
+    padding: 14% 0 0 20%;
     
     iframe{
-      width: 1220px;
-      height: 720px;
+      width: 880px;
+      height: 520px;
     }
   `}
   

@@ -88,17 +88,17 @@ export const Title = styled.h1`
   ${media.xl`
 
     .name{
-        font-size: 36px;
+        font-size: 32px;
     }
     
     .day {
       line-height: 30px;
-      font-size: 22px;
+      font-size: 20px;
     }
   
     .time {
       line-height: 30px;
-      font-size: 22px;
+      font-size: 20px;
     }
   `} 
   
