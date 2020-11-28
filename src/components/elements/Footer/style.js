@@ -37,8 +37,13 @@ export const Item = styled.div`
   ${media.xxl`
     font-size: 1.2rem;
   `}
+  
   ${media.xl`
-    font-size: .9rem;
+    font-size: 1.1rem;
+  `}
+  
+  ${media.lg`
+    font-size: 1rem;
   `}
   
   ${media.md`
@@ -47,6 +52,6 @@ export const Item = styled.div`
     transform-origin: 0;
     padding: .5rem 0 0;
     text-align: center;
-    font-size: .8rem;
+    font-size: .9rem;
   `}
 `

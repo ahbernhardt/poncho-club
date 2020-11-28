@@ -95,12 +95,12 @@ export const NavItem = styled.li`
   }
   
    i {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     
    ${media.xxl`
         a{
-            font-size: 1.2rem;
+            font-size: 1.5rem;
         }
         i{
             font-size: 1.5rem;
@@ -109,7 +109,16 @@ export const NavItem = styled.li`
   
    ${media.xl`
         a{
-            font-size: .9rem;
+            font-size: 1.2rem;
+        }
+        i{
+            font-size: 1.4rem;
+        }
+  `}
+  
+  ${media.lg`
+        a{
+            font-size: 1rem;
         }
         i{
             font-size: 1.2rem;

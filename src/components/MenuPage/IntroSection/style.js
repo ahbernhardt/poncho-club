@@ -49,7 +49,7 @@ export const InfoWrapper = styled.header`
   
   ${media.lg`
     grid-column: 1 / 8;
-    grid-row: 1 / 5;
+    grid-row: 1 / 4;
   `}
   
   ${media.md`
@@ -65,11 +65,34 @@ export const InfoWrapper = styled.header`
 `
 
 export const Content = styled.main`
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   line-height: 1.8em;
   color: ${colors.gray500};
+  
+  ${media.xxl`
+    padding-top: 25px;
+    font-size: 22px;
+  `}
+  
+  ${media.xl`
+    padding-top: 25px;
+    font-size: 22px;
+  `}
+
+  ${media.lg`
+    font-size: 18px;
+  `}
+  
+  ${media.md`
+    font-size: 18px;
+  `}
+  
   ${media.sm`
-    margin-top: 1rem;
+    font-size: 12px;
+  `}
+  
+  ${media.xs`
+    font-size: 12px;
   `}
 
 `

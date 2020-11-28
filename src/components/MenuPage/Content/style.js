@@ -24,7 +24,7 @@ export const MenuSection = styled.section`
   ${media.lg`
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 1rem;
-    padding: 0 0 0 8%;
+    padding: 0 0 0 5%;
   `}
   
   ${media.md`
@@ -52,22 +52,51 @@ export const Title = styled.h1`
   
   ${media.xxl`
     margin-bottom: 5px; 
+    margin-top: 35px; 
+    
+    .name{
+    font-size: 36px;
+    }
   `}
   
   ${media.xl`
     margin-bottom: 5px; 
+    
+    .name{
+    font-size: 32px;
+    }
   `}
   
   ${media.lg`
     margin-bottom: 5px; 
+    
+    .name{
+    font-size: 28px;
+    }
   `}
   
   ${media.md`
-    margin-bottom: 0; 
+    margin-bottom: 5px; 
+    
+    .name{
+    font-size: 28px;
+    }
   `}
   
    ${media.sm`
     padding-bottom: -5%; 
+    
+    .name{
+    font-size: 24px;
+    }
+  `}
+  
+  ${media.xs`
+    padding-bottom: -5%; 
+    
+    .name{
+    font-size: 24px;
+    }
   `}
 `
 
