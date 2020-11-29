@@ -8,7 +8,7 @@ const Footer = () =>
             {getCurrentYear()} <span>©</span> PONCHO
         </Item>
         <Item position='right'>
-            <a target="_blank" rel="noopener noreferrer" href='https://twitch.tv/ponchoclub'>Our TV Channel</a>
+            <a target="_blank" rel="noopener noreferrer" href='https://twitch.tv/euphoricnation'>Our TV Channel</a>
         </Item>
     </Wrapper>
 
