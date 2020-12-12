@@ -10,7 +10,7 @@ const NavBar = () =>
                 <a href="https://discord.gg/7Ra4p6TwGm" rel="noopener noreferrer" target="_blank"><i className="fab fa-discord"/> </a>
             </NavItem>
             <NavItem>
-                <a href="https://twitch.tv/euphoricnation" rel="noopener noreferrer" target="_blank"><i className="fab fa-twitch"/> </a>
+                <a href="https://twitch.tv/ponchoclub" rel="noopener noreferrer" target="_blank"><i className="fab fa-twitch"/> </a>
             </NavItem>
             <NavItem highlight><EmailLink text="poncho@poncho.club" />
             </NavItem>
