@@ -7,9 +7,9 @@ const Intro = props =>
             <span className="name">PONCHO</span>
         </Title>
         <Title>
-            <span className="day">Ward 4 - Plot 55 - The Mist - Exodus</span>
+            <span className="day">Exodus - The Mist - Ward 4 - Plot 55</span>
             <br/>
-            <span className="day">Saturdays</span>
+            <span className="day">Every Other Saturday</span>
             <br/>
             <span className="time">10pm - Close (CST)</span>
         </Title>
