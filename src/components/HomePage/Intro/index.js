@@ -9,9 +9,9 @@ const Intro = props =>
         <Title>
             <span className="day">Exodus - The Mist - Ward 18 - Plot 5</span>
             <br/>
-            <span className="day">Every Other Saturday</span>
+            <span className="day">Saturdays</span>
             <br/>
-            <span className="time">10pm - Close (CST)</span>
+            <span className="time">9pm - Late (CST)</span>
         </Title>
     </Wrapper>
 
